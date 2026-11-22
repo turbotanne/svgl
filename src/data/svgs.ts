@@ -2,6 +2,20 @@ import type { iSVG } from "@/types/svg";
 
 export const svgs: iSVG[] = [
   {
+    title: "Sona8",
+    category: ["AI", "Software"],
+    route: {
+      light: "/library/sona8-light.svg",
+      dark: "/library/sona8-dark.svg",
+    },
+    wordmark: {
+      light: "/library/sona8-wordmark-light.svg",
+      dark: "/library/sona8-wordmark-dark.svg",
+    },
+    brandUrl: "https://sona8.com/design",
+    url: "https://sona8.com/",
+  },
+  {
     title: "Affinity",
     category: ["Design", "Software"],
     route: "/library/affinity.svg",
